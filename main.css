@@ -1,0 +1,60 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	overflow: hidden;
+	background-color: #FFFDD0;
+}
+#header {
+	background-color: #ffb35c;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+#header p {
+	padding-left: 30px;
+	color: white;
+}
+.nav {
+	padding-right: 30px;
+}
+.nav a {
+	padding-right: 20px;
+	color: white;
+	text-decoration: none;
+}
+#content {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: 30px;
+	
+}
+.box, .click button {
+	border-radius: 5px;
+	border: 2px solid #ffb35c;
+}
+.box {
+	background-color: white;
+	width: 300px;
+	padding: 10px 0;
+	margin: 5px;
+	border: 2px solid #ffb35c;
+}
+.box h2 {
+	padding: 0 20px;
+}
+.box p {
+	padding: 0 40px;
+	font-size: 15px;
+}
+.click {
+	text-align: center;
+}
+.click button {
+	padding: 5px 105px;
+	background-color: #ffb35c;
+	color: white;
+	margin-bottom: 10px;
+}
